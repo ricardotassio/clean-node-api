@@ -1,3 +1,3 @@
-const teste = "testando husky";
+const teste = 'Testando husky'
 
 console.log(teste)
