@@ -763,7 +763,7 @@
     "@typescript-eslint/visitor-keys" "6.21.0"
     "debug" "^4.3.4"
 
-"@typescript-eslint/parser@^7.0.1", "@typescript-eslint/parser@^7.8.0":
+"@typescript-eslint/parser@^7.8.0":
   "integrity" "sha512-KgKQly1pv0l4ltcftP59uQZCi4HUYswCLbTqVZEJu7uLX8CTLyswqMLqLN+2QFz4jCptqWVV4SB7vdxcH2+0kQ=="
   "resolved" "https://registry.npmjs.org/@typescript-eslint/parser/-/parser-7.8.0.tgz"
   "version" "7.8.0"
@@ -1579,13 +1579,6 @@
   "integrity" "sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA=="
   "resolved" "https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz"
   "version" "4.0.0"
-
-"eslint-config-love@^47.0.0":
-  "integrity" "sha512-wIeJhb4/NF7nE5Ltppg1e9dp1Auxx0+ZPRysrXQ3uBKlW4Nj/UiTZu4r3sKWCxo6HGcRcI4MC1Q5421y3fny2w=="
-  "resolved" "https://registry.npmjs.org/eslint-config-love/-/eslint-config-love-47.0.0.tgz"
-  "version" "47.0.0"
-  dependencies:
-    "@typescript-eslint/parser" "^7.0.1"
 
 "eslint-config-standard-with-typescript@^43.0.1":
   "integrity" "sha512-WfZ986+qzIzX6dcr4yGUyVb/l9N3Z8wPXCc5z/70fljs3UbWhhV+WxrfgsqMToRzuuyX9MqZ974pq2UPhDTOcA=="
