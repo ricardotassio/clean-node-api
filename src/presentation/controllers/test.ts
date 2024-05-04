@@ -1,3 +1,3 @@
 const teste = 'Testando husky'
 
-console.log(teste)
+console.log(teste);
