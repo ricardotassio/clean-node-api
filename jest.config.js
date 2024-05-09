@@ -5,10 +5,10 @@ const config = {
   coverageDirectory: 'coverage',
   coverageProvider: 'v8',
   roots: ['<rootDir>/src'],
+  preset: '@shelf/jest-mongodb',
   transform: {
     '^.+\\.ts$': 'ts-jest'
-  },
-  preset: '@shelf/jest-mongodb'
+  }
 }
 
 export default config
