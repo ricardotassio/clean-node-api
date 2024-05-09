@@ -1,5 +1,4 @@
-/** @type {import('jest').Config} */
-const config = {
+module.exports = {
   collectCoverage: true,
   collectCoverageFrom: ['<rootDir>/src/**/*.ts'],
   coverageDirectory: 'coverage',
@@ -10,5 +9,3 @@ const config = {
     '^.+\\.ts$': 'ts-jest'
   }
 }
-
-export default config
