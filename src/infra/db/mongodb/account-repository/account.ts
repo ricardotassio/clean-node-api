@@ -10,9 +10,6 @@ export class AccountMongoRepository implements AddAccountRepository {
     if (!result.insertedId) {
       throw new Error('Account not found after insertion')
     }
-    return {
-      id: result.insertedId.toString(),
-      ...accountData
-    }
+    return MongoHelper.map(result.insertedId, accountData)
   }
 }
